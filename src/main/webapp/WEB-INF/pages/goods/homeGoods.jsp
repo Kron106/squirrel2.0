@@ -338,7 +338,7 @@
     <div class="info">
         <a href="" target="_blank">关于我们</a><em>-</em>
         <a href="">联系我们</a>
-        <p>©2018 闲猫</p>
+        <p>©2022 闲猫</p>
     </div>
 </div>
 <!--
