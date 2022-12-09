@@ -189,9 +189,9 @@
     <div id="login-show" class="login stark-components">
         <div class="publish-box z-depth-4">
             <div class="row">
-                <a onclick="showLogin()">
-                    <div class="col s12 title"></div>
-                </a>
+<%--                <a onclick="showLogin()">--%>
+<%--                    <div class="col s12 title"></div>--%>
+<%--                </a>--%>
                 <form action="<%=basePath%>user/login" method="post" role="form">
                     <div class="input-field col s12">
                         <input type="text" name="phone" id="login_phone" required="required" pattern="^1[0-9]{10}$" class="validate ng-pristine ng-empty ng-invalid ng-invalid-required ng-valid-pattern ng-touched" />
@@ -224,9 +224,9 @@
     <div id="signup-show" class="signup stark-components">
         <div class="publish-box z-depth-4">
             <div class="row">
-                <a onclick="showSignup()">
-                    <div class="col s12 title"></div>
-                </a>
+<%--                <a onclick="showSignup()">--%>
+<%--                    <div class="col s12 title"></div>--%>
+<%--                </a>--%>
                 <form action="<%=basePath%>user/addUser" method="POST" role="form" id="signup_form">
                     <div class="input-field col s12">
                         <input type="text" name="username" required="required" class="validate ng-pristine ng-empty ng-invalid ng-invalid-required ng-valid-pattern ng-touched" />
