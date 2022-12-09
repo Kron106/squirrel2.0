@@ -30,7 +30,7 @@
                 <h1 class="logo"></h1>
             </a>
             <a href="<%=basePath%>goods/homeGoods">
-                 <img src="<%=basePath%>img/home_header_new.png"  style="margin-left: 20px;" >
+                 <img src="<%=basePath%>img/home_head.png"  style="margin-left: 20px;" >
             </a>
             <a href="<%=basePath%>user/home">
                 <div class="home"></div>
