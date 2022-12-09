@@ -136,8 +136,7 @@ public class GoodsController {
 	/**
 	 * 查询该类商品
 	 * 
-	 * @param id
-	 *            要求该参数不为空
+	 * @param
 	 * @return
 	 * @throws Exception
 	 */
