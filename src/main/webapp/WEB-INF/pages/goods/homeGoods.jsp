@@ -360,7 +360,7 @@
                                 <p class="text1">Hello：</p>
                                 <p class="text2">欢迎来到闲猫二手交易平台。</p>
                                 <p class="text3">你，是否有太多的闲置与校友分享，为了追求更好的校园服</p>
-                                <p class="text4">务，我们打造了一个全新的二手交易平台——<span>闲猫</p>
+                                <p class="text4">务，我们打造了一个全新的二手交易平台——<span>闲猫</span></p>
                                 <p class="text5">这里有更多的闲置分享，更自由的二手话题讨论，你想要的，都在这里。</p>
                             </ul>
                           <!--   <div class="logoimg">
