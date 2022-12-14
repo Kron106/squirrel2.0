@@ -139,6 +139,7 @@ table td{
 							<td>
 							<button type="button" class="btn btn-primary btn-sm" onclick="doView(${item.id})">查看</button>
 							<button type="button" class="btn btn-info btn-sm"  onclick="doEdit(${item.id})" >修改</button>
+<%--							<button type="button" class="btn btn-info btn-sm"  onclick="dodel(${item.id})" >删除</button>--%>
 						</tr>
 					</c:forEach>
 				</tbody>
@@ -400,6 +401,24 @@ table td{
 				}
 			});
 				
+		}
+		/* 删除 */
+		function dodel(id){
+			if(confirm("确定要删除吗？")){
+				$.ajax({
+					url:'<%=basePath%>admin/deleteGoods/',
+					type:'POST',
+					data:{id:id},
+					dataType:'json',
+					success:function(json){
+						alert(json.msg);
+						location.reload();
+					},
+					error:function(){
+						alert('请求超时或系统出错!');
+					}
+				});
+			}
 		}
 		
 	//根据值 动态选中
